@@ -5,6 +5,7 @@
   justify-content: center;
   overflow-x: hidden;
   margin: 8px 16px;
+  width: 15vw;
 }
 
 #names {
@@ -62,7 +63,7 @@
 }
 
 .acuarela {
-  width: 30%;
+  width: 100%;
   transform: scale(1.15);
 }
 
@@ -117,6 +118,10 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
+  #root {
+    width: 95vw;
+  }
+
   #bottom {
     padding: 0 5%;
   }
