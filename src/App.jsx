@@ -33,9 +33,7 @@ function App() {
         </div>
       </section>
       <section id='explanation'>
-        <p>Nos haría muy felices que pudieras acompañarnos en este día tan importante para nosotros.</p>
-        <p>En breves podrás consultar la ubicación, cómo llegar, horarios y planificación del día, código de vestimenta y más detalles.</p>
-        <p>Si tienes alguna duda o quieres consultarnos cualquier cosa, puedes llamarnos o enviarnos un mensaje sin problema.</p>
+        <p>Nos haría muy felices que pudieras acompañarnos en este día tan importante para nosotros. En breves podrás consultar la ubicación, cómo llegar, horarios y planificación del día, código de vestimenta y más detalles. Si tienes alguna duda o quieres consultarnos cualquier cosa, puedes llamarnos o enviarnos un mensaje sin problema.</p>
       </section>
       <div className='blur'></div>
     </>
