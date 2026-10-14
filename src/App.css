@@ -1,0 +1,152 @@
+#root {
+  gap: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 8px 16px;
+  width: 25vw;
+}
+
+#names {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  margin: 56px 0;
+}
+
+#names > p {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 85%;
+  font-size: 16px;
+}
+
+.jimena {
+  text-align: left;
+  font-size: 36px;
+}
+
+.vicente {
+  text-align: right;
+  font-size: 36px;
+}
+
+.and {
+  font-family: 'Petit Formal Script', cursive;
+  color: rgb(145, 29, 29);
+  font-size: 32px !important;
+  font-weight: 900 !important;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.date-title {
+  position: absolute;
+  top: 0%;
+  z-index: 999;
+  color: white;
+  mix-blend-mode: difference;
+  font-weight: 600;
+}
+
+.acuarela {
+  width: 100%;
+  transform: scale(1.15);
+}
+
+#bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+
+.date {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#explanation {
+  padding: 0 5%;
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  height: 30vh;
+}
+
+#explanation > p {
+  margin-bottom: 16px;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blur {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30dvh;
+  z-index: 999;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--bg) 100%
+  );
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  #root {
+    width: 95vw;
+  }
+
+  #bottom {
+    padding: 0 5%;
+  }
+
+  #names {
+    padding: 0 5%;
+  }
+
+  .acuarela {
+    width: 100%;
+  }
+
+  #navbar > p {
+    width: auto;
+  }
+
+  .date > h2 {
+    font-size: 21px;
+  }
+
+  .date {
+    width: 160px;
+  }
+
+  .place > p {
+    font-size: 14px;
+  }
+}
